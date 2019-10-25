@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+.parallax {
+  background-image: url("../images/ParallaxBlur.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.zoom
+{
+  transition: transform .2s;
+}
+
+.zoom:hover
+{
+  transform: scale(1.1);
+}
+
+.fonte
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(47, 47, 47);
+}
+
+.bgcss
+{
+  background-color: rgba(68, 68, 68, 0.81);
+}
